@@ -1,0 +1,140 @@
+.moreoriginals {
+  width: 100%;
+  padding: 22px;
+  background-color: #fff;
+}
+.moreoriginals .head {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+.moreoriginals .head h2 {
+  font-size: 18px;
+  color: #000000de;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.moreoriginals .head::before {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background-color: #f5c518;
+  border-radius: 5px;
+}
+.moreoriginals .body {
+  width: 100%;
+  padding: 15px 2px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+}
+.moreoriginals .body ul li {
+  list-style: disc;
+}
+
+.moreoriginals .body a {
+  font-size: 16px;
+  text-decoration: none;
+}
+.moreoriginals .body a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .moreoriginals {
+    width: 100%;
+    padding: 22px;
+    background-color: #fff;
+  }
+  .moreoriginals .head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .moreoriginals .head h2 {
+    font-size: 18px;
+    color: #000000de;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .moreoriginals .head::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .moreoriginals .body {
+    width: 100%;
+    padding: 15px 2px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .moreoriginals .body ul li {
+    list-style: disc;
+  }
+
+  .moreoriginals .body a {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .moreoriginals .body a:hover {
+    text-decoration: underline;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .moreoriginals {
+    width: 100%;
+    padding: 22px;
+    background-color: #fff;
+  }
+  .moreoriginals .head {
+    width: 100%;
+    padding: 5px 145px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .moreoriginals .head h2 {
+    font-size: 18px;
+    color: #000000de;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .moreoriginals .head::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .moreoriginals .body {
+    width: 100%;
+    padding: 5px 145px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .moreoriginals .body ul li {
+    list-style: disc;
+  }
+
+  .moreoriginals .body a {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .moreoriginals .body a:hover {
+    text-decoration: underline;
+  }
+}

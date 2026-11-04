@@ -1,0 +1,100 @@
+.topboxoff {
+  width: 100%;
+  padding: 5px 18px;
+  height: 200px;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  gap: 4px;
+  border-bottom: 18px solid rgba(0, 0, 0, 0.08);
+}
+.topboxoff .head {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.topboxoff .head span {
+  font-size: 12px;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+}
+.topboxoff h2 {
+  font-size: 36px;
+}
+.topboxoff p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .topboxoff {
+    width: 100%;
+    padding: 60px 0px 0px 25px;
+    height: fit-content;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 4px;
+    border-bottom: 12px solid rgba(0, 0, 0, 0.08);
+  }
+  .topboxoff .head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topboxoff .head span {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+  }
+  .topboxoff h2 {
+    font-size: 36px;
+  }
+  .topboxoff p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .topboxoff {
+    width: 100%;
+    padding: 60px 0px 0px 150px;
+    height: fit-content;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 4px;
+    border-bottom: 12px solid rgba(0, 0, 0, 0.08);
+  }
+  .topboxoff .head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topboxoff .head span {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+  }
+  .topboxoff h2 {
+    font-size: 36px;
+  }
+  .topboxoff p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+}

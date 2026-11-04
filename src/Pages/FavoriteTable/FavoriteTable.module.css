@@ -1,0 +1,122 @@
+.favoritetable {
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #e5e5e5;
+  color: #171717;
+}
+.favoritetable .head {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+}
+.favoritetable .head .left {
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+}
+.favoritetable a {
+  padding: 15px 45px;
+  background: #198754;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.favoritetable a:hover {
+  background: #0f7145;
+}
+.favoritetable .title {
+  padding: 12px;
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+}
+.favoritetable .title h2 {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.favoritetable .title span {
+  font-size: 1rem;
+}
+.favoritetable table {
+  width: 100%;
+  background: #fff;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.favoritetable table thead th {
+  background-color: #d4d4d4;
+  color: #171717;
+  padding: 22px;
+  font-size: 1rem;
+  text-align: center;
+}
+.favoritetable table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+.favoritetable table tbody td a {
+  background-color: transparent;
+}
+.favoritetable table tbody td a:hover {
+  background-color: transparent;
+}
+.favoritetable table tbody img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+}
+.favoritetable table tbody h2 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.favoritetable table tbody span {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.favoritetable table tbody a {
+  padding: 8px 16px;
+  text-align: center;
+  margin: 0 5px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.favoritetable table tbody td:last-child {
+  text-align: center;
+  vertical-align: middle;
+}
+.favoritetable table tbody button:first-child {
+  background: #333;
+  color: #fff;
+}
+.favoritetable table tbody button:first-child:hover {
+  background: #555;
+}
+.favoritetable table tbody button:last-child {
+  background: #dc3545;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+.trendingtable table tbody button:last-child:hover {
+  background: #b02a37;
+}

@@ -1,0 +1,93 @@
+.topboxrate {
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+}
+.topboxrate h2 {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000de;
+}
+.topboxrate .rate {
+  width: 94%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 6px;
+  margin: 20px auto;
+}
+.topboxrate .rate a {
+  padding: 4px 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000de;
+  border: 1px solid #d5d5d5de;
+  border-radius: 15px;
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .topboxrate {
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+  }
+  .topboxrate h2 {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000de;
+  }
+  .topboxrate .rate {
+    width: 94%;
+    padding: 0px 12px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+    margin: 0px;
+  }
+  .topboxrate .rate a {
+    padding: 4px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000de;
+    border: 1px solid #d5d5d5de;
+    border-radius: 15px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .topboxrate {
+    width: 100%;
+    padding: 30px 125px;
+    background-color: #fff;
+  }
+  .topboxrate h2 {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000de;
+  }
+  .topboxrate .rate {
+    width: 94%;
+    padding: 0px 12px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+    margin: 0px;
+  }
+  .topboxrate .rate a {
+    padding: 4px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000de;
+    border: 1px solid #d5d5d5de;
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,478 @@
+/* start topten */
+@media (min-width: 0px) and (max-width: 550px) {
+  .topten .card:nth-child(n + 4) {
+    display: none;
+  }
+}
+.topten {
+  width: 100%;
+  padding: 2px 15px;
+  min-height: 800px;
+  border-top: 10px solid #000;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  gap: 22px;
+}
+.topten .head {
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+.topten .head::before {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background-color: #f5c518;
+  border-radius: 5px;
+}
+.topten .head h2 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.topten .cards {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+}
+.topten .card {
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 31, 31);
+  border-radius: 18px;
+}
+
+.topten .card .left {
+  width: 28%;
+  height: 100%;
+}
+.topten .card .left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.topten .card .right {
+  width: 70%;
+  height: 100%;
+  padding: 4px 8px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.topten .card .right .top {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  gap: 8px;
+}
+.topten .card .right .top span.number {
+  width: 12%;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  background-color: #0e63be;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 11px;
+}
+.topten .card .right .top h4 {
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+.topten .card .right .bottom {
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+}
+.topten .card .right .bottom .detail {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+.topten .card .right .bottom .detail p {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+}
+.topten .card .right .bottom .detail span {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.topten .card .right .bottom .rating {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 4px;
+}
+.topten .card .right .bottom .rating span {
+  font-size: 14px;
+  color: #ffffffb3;
+  letter-spacing: 1px;
+}
+.topten .card .right .bottom .rating p {
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  color: rgb(87, 153, 239);
+}
+.topten .card .right .bottom .watch {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: end;
+  gap: 7px;
+}
+.topten .card .right .bottom h3 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #5799ef;
+}
+.topten a {
+  padding: 5px 85px;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5799ef;
+  background-color: #ffffff14;
+  align-self: center;
+  text-decoration: none;
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .topten {
+    width: 100%;
+    padding: 2px 15px;
+    min-height: 800px;
+    border-top: 10px solid #000;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+  }
+  .topten .head {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topten .head::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .topten .head h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0px;
+  }
+  .topten .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .topten .card {
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    border-radius: 18px;
+  }
+  .topten .card .left {
+    width: 28%;
+    height: 100%;
+  }
+  .topten .card .left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+  .topten .card .right {
+    width: 70%;
+    height: 100%;
+    padding: 4px 8px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .topten .card .right .top {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+  }
+  .topten .card .right .top span.number {
+    width: 12%;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    background-color: #0e63be;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 11px;
+  }
+  .topten .card .right .top h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  .topten .card .right .bottom {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+  }
+  .topten .card .right .bottom .detail {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+  }
+  .topten .card .right .bottom .detail p {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+  }
+  .topten .card .right .bottom .detail span {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+  }
+  .topten .card .right .bottom .rating {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+  }
+  .topten .card .right .bottom .rating span {
+    font-size: 14px;
+    color: #ffffffb3;
+    letter-spacing: 1px;
+  }
+  .topten .card .right .bottom .rating p {
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    color: rgb(87, 153, 239);
+  }
+  .topten .card .right .bottom .watch {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: end;
+    gap: 7px;
+  }
+  .topten .card .right .bottom h3 {
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: #5799ef;
+  }
+  .topten a {
+    padding: 5px 200px;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5799ef;
+    background-color: #ffffff14;
+    align-self: center;
+    text-decoration: none;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .topten .card:nth-child(n + 4) {
+    display: none;
+  }
+  .topten {
+    width: 80%;
+    min-height: 400px;
+    padding: 2px 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+  }
+  .topten .head {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topten .head::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .topten .head h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0px;
+  }
+  .topten .cards {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .topten .card {
+    width: 100%;
+    height: 350px;
+    padding: 12px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    border-radius: 18px;
+  }
+  .topten .card .left {
+    width: 54%;
+    height: 100%;
+  }
+  .topten .card .left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+  .topten .card .right {
+    width: 45%;
+    height: 100%;
+    padding: 4px 8px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+  }
+  .topten .card .right .top {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .topten .card .right .top span.number {
+    width: 12%;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    background-color: #0e63be;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 11px;
+  }
+  .topten .card .right .top h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  .topten .card .right .bottom {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+  }
+  .topten .card .right .bottom .detail {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+  }
+  .topten .card .right .bottom .detail p {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+  }
+  .topten .card .right .bottom .detail span {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+  }
+  .topten .card .right .bottom .rating {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+  }
+  .topten .card .right .bottom .rating span {
+    font-size: 14px;
+    color: #ffffffb3;
+    letter-spacing: 1px;
+  }
+  .topten .card .right .bottom .rating p {
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    color: rgb(87, 153, 239);
+  }
+  .topten .card .right .bottom .watch {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: end;
+    gap: 7px;
+  }
+  .topten .card .right .bottom h3 {
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: #5799ef;
+  }
+  .topten a {
+    display: none;
+  }
+}
+/* end topten */

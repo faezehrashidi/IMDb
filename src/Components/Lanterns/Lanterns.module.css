@@ -1,0 +1,302 @@
+/* start lanterns */
+.lanterns {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 20px solid #000;
+  height: fit-content;
+  background-color: #121212;
+}
+.lanterns .card {
+  width: 90%;
+  height: fit-content;
+  margin: 5px auto;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.lanterns .card img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.lanterns .card .detail {
+  width: 80%;
+  padding: 8px;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+}
+.lanterns .card .detail span {
+  font-size: 16px;
+  color: rgb(213, 213, 213);
+}
+.lanterns .card h2 {
+  align-self: flex-start;
+  padding: 5px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.lanterns .card .rating {
+  width: 80%;
+  padding: 8px;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+.lanterns .card .rating span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffffb3;
+}
+.lanterns .card .rating span.rat {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.lanterns .card p {
+  width: 90%;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: rgb(213, 213, 213);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.lanterns .card h3 {
+  font-size: 14px;
+  color: #ffffff;
+}
+.lanterns .card .stars {
+  padding-bottom: 30px;
+}
+.LanternsSwiper {
+  position: relative;
+}
+.LanternsSwiper :global(.swiper-button-prev),
+.LanternsSwiper :global(.swiper-button-next) {
+  color: #fff;
+  width: 30px;
+  height: 40px;
+  background-color: #797979;
+  border: 1px solid #dedcdc;
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .lanterns {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 20px solid #000;
+    height: fit-content;
+    background-color: #121212;
+  }
+  .lanterns .card {
+    width: 90%;
+    height: fit-content;
+    margin: 5px auto;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  .lanterns .card img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .lanterns .card .detail {
+    width: 80%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+  }
+  .lanterns .card .detail span {
+    font-size: 16px;
+    color: rgb(213, 213, 213);
+  }
+  .lanterns .card h2 {
+    align-self: flex-start;
+    padding: 5px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .lanterns .card .rating {
+    width: 80%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+  }
+  .lanterns .card .rating span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffffb3;
+  }
+  .lanterns .card .rating span.rat {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .lanterns .card p {
+    width: 90%;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: rgb(213, 213, 213);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .lanterns .card h3 {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .lanterns .card .stars {
+    padding-bottom: 30px;
+  }
+  .LanternsSwiper {
+    position: relative;
+  }
+  .LanternsSwiper :global(.swiper-button-prev),
+  .LanternsSwiper :global(.swiper-button-next) {
+    color: #fff;
+    width: 30px;
+    height: 40px;
+    background-color: #797979;
+    border: 1px solid #dedcdc;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .lanterns {
+    width: 88%;
+    background-color: #000;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 18px;
+    height: fit-content;
+  }
+  .lanterns .card {
+    width: 90%;
+    height: fit-content;
+    margin: 5px auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  .lanterns .card img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .lanterns .card .detail {
+    width: 80%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+  }
+  .lanterns .card .detail span {
+    font-size: 16px;
+    color: rgb(213, 213, 213);
+  }
+  .lanterns .card h2 {
+    align-self: flex-start;
+    padding: 5px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .lanterns .card .rating {
+    width: 80%;
+    padding: 8px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+  }
+  .lanterns .card .rating span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffffb3;
+  }
+  .lanterns .card .rating span.rat {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .lanterns .card p {
+    width: 90%;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: rgb(213, 213, 213);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .lanterns .card h3 {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .lanterns .card .stars {
+    padding-bottom: 30px;
+  }
+  .LanternsSwiper {
+    position: relative;
+  }
+  .LanternsSwiper :global(.swiper-button-prev),
+  .LanternsSwiper :global(.swiper-button-next) {
+    color: #fff;
+    width: 30px;
+    height: 40px;
+    background-color: #797979;
+    border: 1px solid #dedcdc;
+  }
+}
+/* end lanterns */

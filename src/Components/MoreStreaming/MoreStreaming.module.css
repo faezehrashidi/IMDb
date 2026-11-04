@@ -1,0 +1,140 @@
+.morestreaming {
+  width: 100%;
+  padding: 22px;
+  background-color: #fff;
+}
+.morestreaming .head {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+.morestreaming .head h2 {
+  font-size: 18px;
+  color: #000000de;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.morestreaming .head::before {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background-color: #f5c518;
+  border-radius: 5px;
+}
+.morestreaming .body {
+  width: 100%;
+  padding: 15px 2px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+}
+.morestreaming .body ul li {
+  list-style: disc;
+}
+
+.morestreaming .body a {
+  font-size: 16px;
+  text-decoration: none;
+}
+.morestreaming .body a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .morestreaming {
+    width: 100%;
+    padding: 22px;
+    background-color: #fff;
+  }
+  .morestreaming .head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .morestreaming .head h2 {
+    font-size: 18px;
+    color: #000000de;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .morestreaming .head::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .morestreaming .body {
+    width: 100%;
+    padding: 15px 2px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .morestreaming .body ul li {
+    list-style: disc;
+  }
+
+  .morestreaming .body a {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .morestreaming .body a:hover {
+    text-decoration: underline;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .morestreaming {
+    width: 100%;
+    padding: 22px;
+    background-color: #fff;
+  }
+  .morestreaming .head {
+    width: 100%;
+    padding: 5px 150px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .morestreaming .head h2 {
+    font-size: 18px;
+    color: #000000de;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .morestreaming .head::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .morestreaming .body {
+    width: 100%;
+    padding: 5px 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .morestreaming .body ul li {
+    list-style: disc;
+  }
+
+  .morestreaming .body a {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .morestreaming .body a:hover {
+    text-decoration: underline;
+  }
+}

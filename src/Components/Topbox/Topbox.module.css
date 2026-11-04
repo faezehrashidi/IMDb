@@ -1,0 +1,372 @@
+/* start topbox */
+.topbox {
+  width: 100%;
+  padding: 20px 0px;
+  height: fit-content;
+}
+.topbox .top {
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+}
+.topbox .top .one {
+  width: 100%;
+}
+.topbox .top .one h2 {
+  font-size: 28px;
+  padding: 25px 15px 0px 15px;
+  color: #f5c518;
+  margin-bottom: 0px;
+}
+.topbox .top .one .oneo {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+.topbox .top .one .oneo span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #007aff;
+}
+.topbox .top .two {
+  width: 100%;
+}
+.topbox .top .two h2 {
+  font-size: 28px;
+  padding: 25px 15px 0px 15px;
+  color: #f5c518;
+  margin-bottom: 0px;
+}
+.topbox .body {
+  width: 100%;
+}
+.topbox .head {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  gap: 3px;
+}
+.topbox .first::before {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background-color: #f5c518;
+  border-radius: 5px;
+}
+.topbox .first {
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+.topbox .first h2 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.topbox .head span {
+  font-size: 16px;
+  color: #ffffff;
+}
+.topbox .tab {
+  width: 100%;
+  padding: 5px 12px;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+}
+.topbox .product {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+.topbox .product span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.topbox .product .text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  gap: 4px;
+}
+.topbox .product .text h2 {
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #007aff;
+}
+.topbox .product .text .report {
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+.topbox .product .text .report span {
+  font-size: 14px;
+  color: #fffdfdd1;
+  font-weight: lighter;
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .topbox {
+    width: 100%;
+    padding: 20px 0px;
+    height: fit-content;
+  }
+  .topbox .top {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+  }
+  .topbox .top .one {
+    width: 100%;
+  }
+  .topbox .top .one h2 {
+    font-size: 28px;
+    padding: 25px 15px 0px 15px;
+    color: #f5c518;
+    margin-bottom: 0px;
+  }
+  .topbox .top .one .oneo {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topbox .top .one .oneo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #007aff;
+  }
+  .topbox .top .two {
+    width: 100%;
+  }
+  .topbox .top .two h2 {
+    font-size: 28px;
+    padding: 25px 15px 0px 15px;
+    color: #f5c518;
+    margin-bottom: 0px;
+  }
+  .topbox .body {
+    width: 100%;
+  }
+  .topbox .head {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3px;
+  }
+  .topbox .first::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .topbox .first {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topbox .first h2 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 0px;
+  }
+  .topbox .head span {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .topbox .tab {
+    width: 100%;
+    padding: 5px 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .topbox .product {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topbox .product span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .topbox .product .text {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 4px;
+  }
+  .topbox .product .text h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #007aff;
+  }
+  .topbox .product .text .report {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topbox .product .text .report span {
+    font-size: 14px;
+    color: #fffdfdd1;
+    font-weight: lighter;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .topbox {
+    width: 80%;
+    padding: 20px 0px;
+    margin: 0 auto;
+    height: fit-content;
+  }
+  .topbox .top {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+  }
+  .topbox .top .one {
+    width: 100%;
+  }
+  .topbox .top .one h2 {
+    font-size: 28px;
+    padding: 25px 15px 0px 15px;
+    color: #f5c518;
+    margin-bottom: 0px;
+  }
+  .topbox .top .one .oneo {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topbox .top .one .oneo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #007aff;
+  }
+  .topbox .top .two {
+    width: 100%;
+  }
+  .topbox .top .two h2 {
+    font-size: 28px;
+    padding: 25px 15px 0px 15px;
+    color: #f5c518;
+    margin-bottom: 0px;
+  }
+  .topbox .body {
+    width: 100%;
+  }
+  .topbox .head {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3px;
+  }
+  .topbox .first::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .topbox .first {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topbox .first h2 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 0px;
+  }
+  .topbox .head span {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .topbox .tab {
+    width: 100%;
+    padding: 5px 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .topbox .product {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topbox .product span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .topbox .product .text {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 4px;
+  }
+  .topbox .product .text h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #007aff;
+  }
+  .topbox .product .text .report {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .topbox .product .text .report span {
+    font-size: 14px;
+    color: #fffdfdd1;
+    font-weight: lighter;
+  }
+}
+/* end topbox */

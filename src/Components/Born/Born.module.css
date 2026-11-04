@@ -1,0 +1,286 @@
+/* start born */
+.born {
+  width: 100%;
+  height: fit-content;
+  background-color: #1a1a1a;
+}
+.born .explore {
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+}
+.born .explore h3 {
+  padding: 0px 15px;
+  font-size: 22px;
+  color: #f5c518;
+}
+.born .head {
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  gap: 9px;
+}
+.born .head .fisrt::before {
+  content: "";
+  width: 5px;
+  height: 20px;
+  background-color: #f5c518;
+  border-radius: 5px;
+}
+.born .head .fisrt {
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+.born .head .fisrt h2 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.born .head .text span {
+  font-size: 16px;
+  color: #ffffffb3;
+}
+.born .picture {
+  width: 95%;
+  padding: 12px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.born .picture img {
+  border-radius: 50%;
+  position: relative;
+}
+.born .picture button {
+  position: absolute;
+  top: 140px;
+  left: 10px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3b3b3b;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.born .picture .detail {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.born .picture .detail h3 {
+  font-size: 1rem;
+  color: #ffffffb3;
+}
+.born .picture .detail span {
+  font-size: 14px;
+  color: #ffffffb3;
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .born {
+    width: 100%;
+    height: fit-content;
+    background-color: #1a1a1a;
+  }
+  .born .explore {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .born .explore h3 {
+    padding: 0px 15px;
+    font-size: 22px;
+    color: #f5c518;
+  }
+  .born .head {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 9px;
+  }
+  .born .head .fisrt::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .born .head .fisrt {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .born .head .fisrt h2 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .born .head .text span {
+    font-size: 16px;
+    color: #ffffffb3;
+  }
+  .born .picture {
+    width: 95%;
+    padding: 12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .born .picture img {
+    border-radius: 50%;
+    position: relative;
+  }
+  .born .picture button {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3b3b3b;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  .born .picture .detail {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .born .picture .detail h3 {
+    font-size: 1rem;
+    color: #ffffffb3;
+  }
+  .born .picture .detail span {
+    font-size: 14px;
+    color: #ffffffb3;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .born {
+    width: 80%;
+    margin: 0 auto;
+    height: fit-content;
+    background-color: #000;
+  }
+  .born .explore {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .born .explore h3 {
+    padding: 0px 15px;
+    font-size: 22px;
+    color: #f5c518;
+  }
+  .born .head {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 9px;
+  }
+  .born .head .fisrt::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .born .head .fisrt {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .born .head .fisrt h2 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .born .head .text span {
+    font-size: 16px;
+    color: #ffffffb3;
+  }
+  .born .picture {
+    width: 95%;
+    padding: 12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .born .picture img {
+    border-radius: 50%;
+    position: relative;
+  }
+  .born .picture button {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3b3b3b;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  .born .picture .detail {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .born .picture .detail h3 {
+    font-size: 1rem;
+    color: #ffffffb3;
+  }
+  .born .picture .detail span {
+    font-size: 14px;
+    color: #ffffffb3;
+  }
+}
+/* end born */

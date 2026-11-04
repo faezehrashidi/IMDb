@@ -1,0 +1,370 @@
+.sign {
+  width: 100%;
+  min-height: 700px;
+  padding: 18px 0;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.signin {
+  width: 100%;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.signin h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.signin h2::before {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 5px;
+  height: 20px;
+  background-color: #f5c518;
+  border-radius: 5px;
+}
+.signin .links {
+  width: 100%;
+  padding: 15px 0px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.signin .links a.create {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+  background-color: #f5c518;
+  padding: 8px 80px;
+  border-radius: 22px;
+}
+.signin .links .line {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.signin .links .line hr {
+  width: 50%;
+}
+.signin .links span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.signin .links a.exist {
+  font-size: 12px;
+  font-weight: 600;
+  color: #0e63be;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 12px 80px;
+  border-radius: 22px;
+}
+.signin .links p {
+  width: 90%;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.signin .links span {
+  font-size: 14px;
+  color: #0e63be;
+}
+.des {
+  width: 100%;
+  padding: 5px 20px;
+}
+.des h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+.des .det {
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+}
+.des .det h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
+.des .det p {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.54);
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .sign {
+    width: 100%;
+    min-height: 500px;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .body {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .signin {
+    width: 100%;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .signin h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .signin h2::before {
+    content: "";
+    display: block;
+    flex-shrink: 0;
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .signin .links {
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .signin .links a.create {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    background-color: #f5c518;
+    padding: 12px 140px;
+    border-radius: 22px;
+  }
+  .signin .links .line {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+  .signin .links .line hr {
+    width: 50%;
+  }
+  .signin .links span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .signin .links a.exist {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0e63be;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 12px 110px;
+    border-radius: 22px;
+  }
+  .signin .links p {
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .signin .links span {
+    font-size: 14px;
+    color: #0e63be;
+  }
+  .des {
+    width: 90%;
+    padding: 5px 20px;
+  }
+  .des h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+  }
+  .des .det {
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .des .det h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+  }
+  .des .det p {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.54);
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .sign {
+    width: 100%;
+    min-height: 500px;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .body {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: start;
+  }
+  .signin {
+    width: 35%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .signin h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .signin h2::before {
+    content: "";
+    display: block;
+    flex-shrink: 0;
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .signin .links {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .signin .links a.create {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    background-color: #f5c518;
+    padding: 12px 140px;
+    border-radius: 22px;
+  }
+  .signin .links .line {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+  .signin .links .line hr {
+    width: 25%;
+  }
+  .signin .links span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .signin .links a.exist {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0e63be;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 12px 110px;
+    border-radius: 22px;
+  }
+  .signin .links p {
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .signin .links span {
+    font-size: 14px;
+    color: #0e63be;
+  }
+  .des {
+    width: 37%;
+    height: 100%;
+  }
+  .des h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+  }
+  .des .det {
+    width: 65%;
+    margin-top: 12px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3px;
+  }
+  .des .det h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+  }
+  .des .det p {
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.54);
+  }
+}

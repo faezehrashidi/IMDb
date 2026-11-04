@@ -1,0 +1,191 @@
+@media (min-width: 0px) and (max-width: 550px) {
+  .intervieworiginals {
+    width: 100%;
+    padding: 18px;
+    background-color: #fff;
+  }
+  .intervieworiginals .head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .intervieworiginals .head h2 {
+    font-size: 1.125rem;
+    margin-bottom: 0px;
+  }
+  .intervieworiginals .head::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .intervieworiginals .body {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .intervieworiginals .body p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .intervieworiginals .body .card {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 7px;
+  }
+  .intervieworiginals .card:nth-of-type(2) {
+    display: none;
+  }
+  .intervieworiginals .body .card img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .intervieworiginals .body .card span {
+    width: 95%;
+    text-align: center;
+    padding: 0px 12px;
+    font-size: 1rem;
+    color: #000000de;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 1200px) {
+  .intervieworiginals {
+    width: 100%;
+    padding: 18px;
+    background-color: #fff;
+  }
+  .intervieworiginals .head {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .intervieworiginals .head h2 {
+    font-size: 1.125rem;
+    margin-bottom: 0px;
+  }
+  .intervieworiginals .head::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .intervieworiginals .body {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .intervieworiginals .body p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .intervieworiginals .body .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .intervieworiginals .body .card {
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 7px;
+  }
+  .intervieworiginals .body .card img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .intervieworiginals .body .card span {
+    width: 90%;
+    padding: 0px 12px;
+    font-size: 1rem;
+    color: #000000de;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .intervieworiginals {
+    width: 100%;
+    padding: 18px;
+    background-color: #fff;
+  }
+  .intervieworiginals .head {
+    width: 100%;
+    padding: 0px 125px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  }
+  .intervieworiginals .head h2 {
+    font-size: 22px;
+    margin-bottom: 0px;
+  }
+  .intervieworiginals .head::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+  }
+  .intervieworiginals .body {
+    width: 100%;
+    padding: 10px 125px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .intervieworiginals .body p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .intervieworiginals .body .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .intervieworiginals .body .card {
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    gap: 7px;
+  }
+  .intervieworiginals .body .card img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .intervieworiginals .body .card span {
+    width: 90%;
+    padding: 0px 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000000de;
+  }
+}

@@ -1,0 +1,44 @@
+.admindashboard {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-flow: row;
+  background: linear-gradient(
+    135deg,
+    rgb(235, 235, 235) 0%,
+    rgb(120, 120, 120) 20%,
+    rgb(45, 45, 45) 45%,
+    rgb(10, 10, 10) 75%,
+    rgb(0, 0, 0) 100%
+  );
+  justify-content: space-between;
+  align-items: start;
+}
+.admindashboard .sidebar {
+  width: 15%;
+  height: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.admindashboard .sidebar ul {
+  padding: 40px;
+  height: 100%;
+}
+.admindashboard .sidebar li {
+  width: 90%;
+  height: 70px;
+}
+.admindashboard .sidebar li a {
+  text-decoration: none;
+  color: #000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  transition: color 0.4s ease;
+}
+.admindashboard .sidebar li a:hover {
+  text-decoration: underline;
+  color: rgb(17, 10, 10);
+}
+.admindashboard .mainContent {
+  flex: 1;
+}

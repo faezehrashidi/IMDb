@@ -1,0 +1,404 @@
+/* start footer */
+footer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+}
+footer .head {
+  width: 100%;
+  height: 150px;
+  padding: 20px;
+  background-color: #000;
+}
+footer .head h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+}
+footer .head span {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+footer .app {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #c2c2c21a;
+}
+footer .app a {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: rgb(245, 197, 24);
+}
+footer .sign {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #2727271a;
+}
+footer .sign a {
+  padding: 8px 35px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: rgb(87, 153, 239);
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #9090901a;
+}
+footer .body {
+  width: 100%;
+  padding: 20px;
+  background-color: #000;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .body .logo {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+footer .body .firsttext {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin: 20px auto;
+}
+footer .body .firsttext .word {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+footer .body .firsttext .word span {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+footer .body .lasttext {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin: 20px auto;
+}
+footer .body .lasttext span {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+footer .body .lasttext .word {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+footer .body .lasttext.word span {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+footer .end {
+  width: 100%;
+  padding: 0px 0px 40px 0px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+footer .end h2 {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  footer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+  }
+  footer .head {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    background-color: #000;
+  }
+  footer .head h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+  }
+  footer .head span {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  footer .app {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #c2c2c21a;
+  }
+  footer .app a {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: rgb(245, 197, 24);
+  }
+  footer .sign {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #2727271a;
+  }
+  footer .sign a {
+    padding: 8px 35px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: rgb(87, 153, 239);
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #9090901a;
+  }
+  footer .body {
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .body .logo {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  footer .body .firsttext {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin: 20px auto;
+  }
+  footer .body .firsttext .word {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+  footer .body .firsttext .word span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  footer .body .lasttext {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin: 20px auto;
+  }
+  footer .body .lasttext span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  footer .body .lasttext .word {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+  footer .body .lasttext.word span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  footer .end {
+    width: 100%;
+    padding: 0px 0px 40px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+  footer .end h2 {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+  }
+  footer .head {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    background-color: #000;
+  }
+  footer .head h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+  }
+  footer .head span {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  footer .app {
+    display: none;
+  }
+  footer .sign {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #2727271a;
+  }
+  footer .sign a {
+    padding: 8px 35px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: rgb(245, 197, 24);
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+  }
+  footer .body {
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .body .logo {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  footer .body .firsttext {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin: 20px auto;
+  }
+  footer .body .firsttext .word {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+  footer .body .firsttext .word span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  footer .body .lasttext {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin: 20px auto;
+  }
+  footer .body .lasttext span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  footer .body .lasttext .word {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+  footer .body .lasttext.word span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  footer .end {
+    width: 100%;
+    padding: 0px 0px 40px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+  footer .end h2 {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+/* end footer*/

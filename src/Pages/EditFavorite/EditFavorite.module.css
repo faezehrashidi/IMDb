@@ -1,0 +1,65 @@
+.editFavorite {
+  width: 65%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  box-sizing: border-box;
+  direction: rtl;
+  background-color: #202020;
+  border: 1px solid #3b3b3b;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+.editFavorite h2 {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 30px;
+}
+.editFavorite form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 20px;
+}
+.editFavorite form label {
+  color: #eeeeee;
+  font-size: 15px;
+  align-self: center;
+}
+.editFavorite form input {
+  width: 100%;
+  height: 42px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  border: 1px solid #555555;
+  border-radius: 8px;
+  outline: none;
+}
+.editFavorite form input:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15);
+}
+.editFavorite form label[for="src"],
+.editFavorite form input[name="src"] {
+  grid-column: 1 / -1;
+}
+.editFavorite form button {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #171717;
+  background-color: #d4af37;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.editFavorite form button:hover {
+  background-color: #e6c65c;
+}

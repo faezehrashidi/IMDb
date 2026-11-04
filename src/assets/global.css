@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  font-family: cm9ib3Rv, cm9ib3RvQm9sZA, cm9ib3RvTWVk;
+}
+#root {
+  background-color: #121212;
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    background-color: #000;
+  }
+}
+@font-face {
+  font-family: cm9ib3Rv;
+  src: url(./fonts/cm9ib3Rv._TTW_.woff2);
+}
+@font-face {
+  font-family: cm9ib3RvQm9sZA;
+  src: url(./fonts/cm9ib3RvQm9sZA._TTW_.woff2);
+}
+@font-face {
+  font-family: cm9ib3RvTWVk;
+  src: url(./fonts/cm9ib3RvTWVk._TTW_.woff2);
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

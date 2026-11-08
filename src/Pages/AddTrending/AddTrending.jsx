@@ -20,7 +20,7 @@ const AddTrending = () => {
     e.preventDefault();
     try {
       const posttrending = async () => {
-        await fetch("http://localhost:3000/Trending", {
+        await fetch("https://imdb-api-9fl7.onrender.com/Trending", {
           method: "POST",
           body: JSON.stringify({
             title: trending.title,

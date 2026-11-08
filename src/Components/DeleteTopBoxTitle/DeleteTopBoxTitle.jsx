@@ -16,7 +16,7 @@ const DeleteTopBoxTitle = ({ id }) => {
       if (result.isConfirmed) {
         try {
           const DeleteTopBoxTitle = async () => {
-            await fetch(`http://localhost:3000/TopBoxTitle/${id}`, {
+            await fetch(`https://imdb-api-9fl7.onrender.com/TopBoxTitle/${id}`, {
               method: "DELETE",
             });
           };

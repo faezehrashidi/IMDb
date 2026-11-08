@@ -23,7 +23,7 @@ const AddTopBoxTitleTable = () => {
     e.preventDefault();
     try {
       const posttopBoxTitleTable = async () => {
-        await fetch("http://localhost:3000/TopBoxTitle", {
+        await fetch("https://imdb-api-9fl7.onrender.com/TopBoxTitle", {
           method: "POST",
           body: JSON.stringify({
             name: topBoxTitleTable.name,

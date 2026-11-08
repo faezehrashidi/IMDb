@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import style from "./News.module.css";
 const News = () => {
-  const news = FetchAll("http://localhost:3000/News");
+  const news = FetchAll("https://imdb-api-9fl7.onrender.com/News");
   return (
     <>
       <section className={style.news}>

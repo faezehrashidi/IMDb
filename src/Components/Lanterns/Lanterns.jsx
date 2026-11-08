@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import FetchAll from "../../hooks/fetchAll";
 const Lanterns = () => {
-  const lanterns = FetchAll("http://localhost:3000/Lanterns");
+  const lanterns = FetchAll("https://imdb-api-9fl7.onrender.com/Lanterns");
   return (
     <>
       <section className={style.lanterns}>

@@ -4,7 +4,7 @@ import "swiper/css";
 import style from "./Favourite.module.css";
 import { Link } from "react-router-dom";
 const Favourite = () => {
-  const favourite = FetchAll("http://localhost:3000/Favourite");
+  const favourite = FetchAll("https://imdb-api-9fl7.onrender.com/Favourite");
   return (
     <>
       <section className={style.favourite}>

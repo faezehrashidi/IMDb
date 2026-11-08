@@ -23,7 +23,7 @@ import ShowTrending from "./Pages/ShowTrending/ShowTrending";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/IMDb">
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>

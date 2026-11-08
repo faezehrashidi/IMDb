@@ -3,7 +3,7 @@ import FetchAll from "../../hooks/fetchAll";
 import DeleteFavorite from "../../Components/DeleteFavorite/DeleteFavorite";
 import { Link } from "react-router-dom";
 const FavoriteTable = () => {
-  const favoritetable = FetchAll("http://localhost:3000/Favourite");
+  const favoritetable = FetchAll("https://imdb-api-9fl7.onrender.com/Favourite");
   return (
     <>
       <section className={style.favoritetable}>

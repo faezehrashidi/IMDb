@@ -13,7 +13,7 @@ const ShowTrending = () => {
   });
   const fetchOne = async () => {
     try {
-      let res = await fetch(`http://localhost:3000/Trending/${id}`);
+      let res = await fetch(`https://imdb-api-9fl7.onrender.com/Trending/${id}`);
       let data = await res.json();
       setShowTrending({
         src: data.src,

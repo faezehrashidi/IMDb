@@ -12,7 +12,7 @@ const EditTrending = () => {
     change: "",
   });
   const fetchOne = async () => {
-    let res = await fetch(`http://localhost:3000/Trending/${id}`);
+    let res = await fetch(`https://imdb-api-9fl7.onrender.com/Trending/${id}`);
     let data = await res.json();
     console.log(data);
     setEditTrending({
@@ -37,7 +37,7 @@ const EditTrending = () => {
     e.preventDefault();
     const postOne = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/Trending/${id}`, {
+        const res = await fetch(`https://imdb-api-9fl7.onrender.com/Trending/${id}`, {
           method: "PATCH",
           body: JSON.stringify({
             src: editTrending.src,

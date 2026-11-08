@@ -20,7 +20,7 @@ const AddFavorite = () => {
     e.preventDefault();
     try {
       const postfavorite = async () => {
-        await fetch("http://localhost:3000/Favourite", {
+        await fetch("https://imdb-api-9fl7.onrender.com/Favourite", {
           method: "POST",
           body: JSON.stringify({
             name: favorite.name,

@@ -14,7 +14,7 @@ const EditTopBoxTitle = () => {
     releaseWeek: "",
   });
   const fetchOne = async () => {
-    let res = await fetch(`http://localhost:3000/TopBoxTitle/${id}`);
+    let res = await fetch(`https://imdb-api-9fl7.onrender.com/TopBoxTitle/${id}`);
     let data = await res.json();
     console.log(data);
     setEditTopBoxTitle({
@@ -41,7 +41,7 @@ const EditTopBoxTitle = () => {
     e.preventDefault();
     const postOne = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/TopBoxTitle/${id}`, {
+        const res = await fetch(`https://imdb-api-9fl7.onrender.com/TopBoxTitle/${id}`, {
           method: "PATCH",
           body: JSON.stringify({
             src: editTopBoxTitle.src,

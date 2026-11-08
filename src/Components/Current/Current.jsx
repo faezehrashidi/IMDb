@@ -4,7 +4,7 @@ import "swiper/css";
 import style from "./Current.module.css";
 import { Link } from "react-router-dom";
 const Current = () => {
-  const current = FetchAll("http://localhost:3000/Current");
+  const current = FetchAll("https://imdb-api-9fl7.onrender.com/Current");
   return (
     <>
       <section className={style.current}>

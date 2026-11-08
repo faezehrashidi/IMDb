@@ -1,7 +1,7 @@
 import FetchAll from "../../hooks/fetchAll";
 import style from "./TopBoxMovie.module.css";
 const TopBoxMovie = () => {
-  const topboxmovie = FetchAll("http://localhost:3000/TopBoxMovie");
+  const topboxmovie = FetchAll("https://imdb-api-9fl7.onrender.com/TopBoxMovie");
   return (
     <>
       <section className={style.topboxmovie}>

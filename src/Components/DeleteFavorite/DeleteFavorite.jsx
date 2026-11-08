@@ -16,7 +16,7 @@ const DeleteFavorite = ({ id }) => {
       if (result.isConfirmed) {
         try {
           const DeleteFavorite = async () => {
-            await fetch(`http://localhost:3000/Favourite/${id}`, {
+            await fetch(`https://imdb-api-9fl7.onrender.com/Favourite/${id}`, {
               method: "DELETE",
             });
           };

@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import FetchAll from "../../hooks/fetchAll";
 const Banner = () => {
-  const banner = FetchAll("http://localhost:3000/Banner");
+  const banner = FetchAll("https://imdb-api-9fl7.onrender.com/Banner");
   return (
     <>
       <section className={style.banner}>

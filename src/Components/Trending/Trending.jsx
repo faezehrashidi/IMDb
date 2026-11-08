@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 const Trending = () => {
-  const trending = FetchAll("http://localhost:3000/Trending");
+  const trending = FetchAll("https://imdb-api-9fl7.onrender.com/Trending");
   return (
     <>
       <section className={style.trending}>

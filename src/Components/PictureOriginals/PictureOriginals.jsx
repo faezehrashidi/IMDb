@@ -1,7 +1,7 @@
 import style from "./PictureOriginals.module.css";
 import FetchAll from "../../hooks/fetchAll";
 const PictureOriginals = () => {
-  const pictureoriginals = FetchAll("http://localhost:3000/PictureOriginals");
+  const pictureoriginals = FetchAll("https://imdb-api-9fl7.onrender.com/PictureOriginals");
   return (
     <>
       <section className={style.pictureoriginals}>

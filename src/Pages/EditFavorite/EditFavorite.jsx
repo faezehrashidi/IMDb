@@ -11,7 +11,7 @@ const EditFavorite = () => {
     rate: "",
   });
   const fetchOne = async () => {
-    let res = await fetch(`http://localhost:3000/Favourite/${id}`);
+    let res = await fetch(`https://imdb-api-9fl7.onrender.com/Favourite/${id}`);
     let data = await res.json();
     console.log(data);
     setEditFavorite({
@@ -35,7 +35,7 @@ const EditFavorite = () => {
     e.preventDefault();
     const postOne = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/Favourite/${id}`, {
+        const res = await fetch(`https://imdb-api-9fl7.onrender.com/Favourite/${id}`, {
           method: "PATCH",
           body: JSON.stringify({
             src: editFavorite.src,

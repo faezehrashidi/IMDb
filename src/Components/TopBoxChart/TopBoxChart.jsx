@@ -1,7 +1,7 @@
 import FetchAll from "../../hooks/fetchAll";
 import style from "./TopBoxChart.module.css";
 const TopBoxChart = () => {
-  const topboxchart = FetchAll("http://localhost:3000/TopBoxChart");
+  const topboxchart = FetchAll("https://imdb-api-9fl7.onrender.com/TopBoxChart");
   return (
     <>
       <section className={style.topboxchart}>

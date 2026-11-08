@@ -16,7 +16,7 @@ const DeleteTrending = ({ id }) => {
       if (result.isConfirmed) {
         try {
           const DeleteTrending = async () => {
-            await fetch(`http://localhost:3000/Trending/${id}`, {
+            await fetch(`https://imdb-api-9fl7.onrender.com/Trending/${id}`, {
               method: "DELETE",
             });
           };

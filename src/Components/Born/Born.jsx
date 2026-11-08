@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 const Born = () => {
-  const born = FetchAll("http://localhost:3000/Born");
+  const born = FetchAll("https://imdb-api-9fl7.onrender.com/Born");
   return (
     <>
       <section className={style.born}>

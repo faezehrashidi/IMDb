@@ -7,7 +7,7 @@ import { FreeMode } from "swiper/modules";
 import { Link } from "react-router-dom";
 import FetchAll from "../../hooks/fetchAll";
 const Featured = () => {
-  const featured = FetchAll("http://localhost:3000/Featured");
+  const featured = FetchAll("	https://imdb-api-9fl7.onrender.com/Featured");
   return (
     <>
       <section className={style.featured}>

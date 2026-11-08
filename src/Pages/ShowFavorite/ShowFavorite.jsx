@@ -12,7 +12,7 @@ const ShowFavorite = () => {
   });
   const fetchOne = async () => {
     try {
-      let res = await fetch(`http://localhost:3000/Favourite/${id}`);
+      let res = await fetch(`https://imdb-api-9fl7.onrender.com/Favourite/${id}`);
       let data = await res.json();
       setShowFavorite({
         src: data.src,

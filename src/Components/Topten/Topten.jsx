@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import FetchAll from "../../hooks/fetchAll";
 import style from "./Topten.module.css";
 const Topten = () => {
-  const topten = FetchAll("http://localhost:3000/Topten");
+  const topten = FetchAll("https://imdb-api-9fl7.onrender.com/Topten");
   return (
     <>
       <section className={style.topten}>

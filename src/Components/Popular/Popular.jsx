@@ -4,7 +4,7 @@ import "swiper/css/pagination";
 import style from "./Popular.module.css";
 import FetchAll from "../../hooks/fetchAll";
 const Popular = () => {
-  const popular = FetchAll("http://localhost:3000/Popular");
+  const popular = FetchAll("https://imdb-api-9fl7.onrender.com/Popular");
   return (
     <>
       <section className={style.popular}>

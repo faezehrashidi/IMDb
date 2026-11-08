@@ -3,7 +3,7 @@ import FetchAll from "../../hooks/fetchAll";
 import DeleteTrending from "../../Components/DeleteTrending/DeleteTrending";
 import style from "./TrendingTable.module.css";
 const TrendingTable = () => {
-  const trendingtable = FetchAll("http://localhost:3000/Trending");
+  const trendingtable = FetchAll("https://imdb-api-9fl7.onrender.com/Trending");
   return (
     <>
       <section className={style.trendingtable}>

@@ -3,7 +3,7 @@ import FetchAll from "../../hooks/fetchAll";
 import DeleteTopBoxTitle from "../../Components/DeleteTopBoxTitle/DeleteTopBoxTitle";
 import style from "./TopBoxTitleTable.module.css";
 const TopBoxTitleTable = () => {
-  const topboxtitletable = FetchAll("http://localhost:3000/TopBoxTitle");
+  const topboxtitletable = FetchAll("https://imdb-api-9fl7.onrender.com/TopBoxTitle");
   return (
     <>
       <section className={style.topboxtitletable}>

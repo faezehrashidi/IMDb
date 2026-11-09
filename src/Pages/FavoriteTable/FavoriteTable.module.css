@@ -2,8 +2,8 @@
   min-height: 100vh;
   padding: 30px;
   box-sizing: border-box;
-  background: #e5e5e5;
-  color: #171717;
+  background: #000;
+  color: #fff;
 }
 .favoritetable .head {
   width: 100%;
@@ -50,14 +50,14 @@
 }
 .favoritetable table {
   width: 100%;
-  background: #fff;
+  background: #000;
   border-collapse: collapse;
   border-radius: 10px;
   overflow: hidden;
 }
 .favoritetable table thead th {
-  background-color: #d4d4d4;
-  color: #171717;
+  background-color: #606060;
+  color: #fff;
   padding: 22px;
   font-size: 1rem;
   text-align: center;

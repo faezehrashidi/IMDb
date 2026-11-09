@@ -80,7 +80,8 @@
   color: #ffffffb3;
 }
 .current .product .body h2 {
-  font-size: 16px;
+  font-size: 0.8rem;
+  margin-bottom: 0px;
   color: white;
   align-self: flex-start;
   text-align: start;
@@ -110,7 +111,7 @@
 }
 .current .product .body a {
   align-self: center;
-  font-size: 14px;
+  font-size: 0.7rem;
   text-decoration: none;
   padding: 5px 30px;
   border-radius: 18px;

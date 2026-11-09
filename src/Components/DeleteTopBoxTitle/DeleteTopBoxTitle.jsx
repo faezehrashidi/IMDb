@@ -9,6 +9,7 @@ const DeleteTopBoxTitle = ({ id }) => {
       icon: "warning",
       showCancelButton: true,
       cancelButtonText: "لغو",
+      background: "#2b2b2b",
       confirmButtonColor: "#207bd0",
       cancelButtonColor: "rgb(217, 27, 27)",
       confirmButtonText: "حذف",
@@ -16,9 +17,12 @@ const DeleteTopBoxTitle = ({ id }) => {
       if (result.isConfirmed) {
         try {
           const DeleteTopBoxTitle = async () => {
-            await fetch(`https://imdb-api-9fl7.onrender.com/TopBoxTitle/${id}`, {
-              method: "DELETE",
-            });
+            await fetch(
+              `https://imdb-api-9fl7.onrender.com/TopBoxTitle/${id}`,
+              {
+                method: "DELETE",
+              },
+            );
           };
           await DeleteTopBoxTitle();
           setTimeout(() => {

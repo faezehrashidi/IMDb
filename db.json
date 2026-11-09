@@ -2368,6 +2368,5 @@
       "alt": "ImageOriginals3",
       "title": "Celebs Answer Our Burning Questions"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }

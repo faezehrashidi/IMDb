@@ -3,14 +3,7 @@
   height: fit-content;
   display: flex;
   flex-flow: row;
-  background: linear-gradient(
-    135deg,
-    rgb(235, 235, 235) 0%,
-    rgb(120, 120, 120) 20%,
-    rgb(45, 45, 45) 45%,
-    rgb(10, 10, 10) 75%,
-    rgb(0, 0, 0) 100%
-  );
+  background: #000;
   justify-content: space-between;
   align-items: start;
 }
@@ -21,7 +14,7 @@
   box-sizing: border-box;
 }
 .admindashboard .sidebar ul {
-  padding: 40px;
+  padding: 10px;
   height: 100%;
 }
 .admindashboard .sidebar li {
@@ -30,15 +23,93 @@
 }
 .admindashboard .sidebar li a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 22px;
+  font-size: 1rem;
   transition: color 0.4s ease;
 }
 .admindashboard .sidebar li a:hover {
   text-decoration: underline;
-  color: rgb(17, 10, 10);
+  color: rgb(150, 150, 150);
 }
 .admindashboard .mainContent {
   flex: 1;
+}
+@media (min-width: 551px) and (max-width: 1200px) {
+  .admindashboard {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row;
+    background: #000;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .admindashboard .sidebar {
+    width: 15%;
+    height: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  .admindashboard .sidebar ul {
+    padding: 40px;
+    height: 100%;
+  }
+  .admindashboard .sidebar li {
+    width: 90%;
+    height: 70px;
+  }
+  .admindashboard .sidebar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+    transition: color 0.4s ease;
+  }
+  .admindashboard .sidebar li a:hover {
+    text-decoration: underline;
+    color: rgb(150, 150, 150);
+  }
+  .admindashboard .mainContent {
+    flex: 1;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .admindashboard {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row;
+    background: #000;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .admindashboard .sidebar {
+    width: 15%;
+    height: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  .admindashboard .sidebar ul {
+    padding: 40px;
+    height: 100%;
+  }
+  .admindashboard .sidebar li {
+    width: 90%;
+    height: 70px;
+  }
+  .admindashboard .sidebar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+    transition: color 0.4s ease;
+  }
+  .admindashboard .sidebar li a:hover {
+    text-decoration: underline;
+    color: rgb(150, 150, 150);
+  }
+  .admindashboard .mainContent {
+    flex: 1;
+  }
 }
